@@ -3,7 +3,7 @@ let student1 = "Sara"
 let student2 = "Samad"
 let student3 = "Godwin"
 let student4 = "Mohh"
-let students = ["Sara", "Samad", "Godwin", "Mohh" ]
+let students = ["Sara", "Samad", "Godwin", "Mohh"]
 //array starts from zero
 console.log(students[0])
 console.log(students.length)
