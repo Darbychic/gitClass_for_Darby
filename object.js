@@ -37,5 +37,24 @@ let employee = {
     salary : 450000,
     city : "Lagos",
 };
-const {name, role, salary, city} = employee;                
+const {name:userName, role, salary, city} = employee;  //object structuring   
+
+//spread and rest
+//spread operator
+let DNA = {
+    gender : "XY",
+    complexion : "Dark"
+}
+
+let offSpring = {
+    ...DNA,
+    name : "AYODELE DEBORAH OLUWASEUN",
+    age : 30
+}
+console.log(offSpring);
+
+console.log(Object.keys(offSpring));
+console.log(Object.values(offSpring));
+console.log(Object.entries(offSpring));
+
 
