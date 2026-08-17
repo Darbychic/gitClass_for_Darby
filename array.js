@@ -35,7 +35,6 @@ console.log("this is sorted:" ,students)
 
 console.log("this is sliced:" ,students.slice(1, 3))//returns a new array with the sliced elements
 console.log("this is spliced:" ,students.splice(1 ,2 , "Mohh" , "Esther"))//removes the elements from the array and returns the elements in an array
-console.log("this is the array:" ,students)
 //higher order array methods
 //map, filter, reduce, forEach, find, findIndex, some, every
 //map methods(create a new array by transforming each of the elementsin the array)
